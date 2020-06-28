@@ -57,7 +57,8 @@ AppAsset::register($this);
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
-    //echo components\ActiveMenu::widget([
+    //it's a test @@@@@@@@@@@@@@@@@@@@@
+	//echo components\ActiveMenu::widget([
 	echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
