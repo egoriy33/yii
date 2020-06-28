@@ -60,7 +60,7 @@ AppAsset::register($this);
             'class' => 'navbar-inverse navbar-fixed-top',
         ],
     ]);
-    //it's a test @@@@@@@@@@@@@@@@@@@@@
+    //new code @@@@@@@@@@@@@@@@@@@@@
 	echo components\ActiveMenu::widget([
 	//echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
