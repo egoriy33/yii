@@ -61,8 +61,8 @@ AppAsset::register($this);
         ],
     ]);
     //it's a test @@@@@@@@@@@@@@@@@@@@@
-	//echo components\ActiveMenu::widget([
-	echo Nav::widget([
+	echo components\ActiveMenu::widget([
+	//echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
