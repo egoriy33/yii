@@ -1,0 +1,17 @@
+diff --git a/views/layouts/main.php b/views/layouts/main.php
+index caae22c..f7490be 100644
+--- a/views/layouts/main.php
++++ b/views/layouts/main.php
+@@ -60,9 +60,9 @@ AppAsset::register($this);
+             'class' => 'navbar-inverse navbar-fixed-top',
+         ],
+     ]);
+-    //new code @@@@@@@@@@@@@@@@@@@@@
+-	echo components\ActiveMenu::widget([
+-	//echo Nav::widget([
++    //it's a test @@@@@@@@@@@@@@@@@@@@@
++	//echo components\ActiveMenu::widget([
++	echo Nav::widget([
+         'options' => ['class' => 'navbar-nav navbar-right'],
+         'items' => [
+             ['label' => 'Home', 'url' => ['/site/index']],
